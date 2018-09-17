@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+/************************************************************ 
+***                 by又加   twoshuo.cn                   ****
+***                                          男儿本色      ****
+*************************************************************/
+
+	.blur {    
+    -webkit-filter: blur(5px); /* Chrome, Opera */
+       -moz-filter: blur(5px);
+        -ms-filter: blur(5px);    
+            filter: blur(5px);    
+}
+	.bgmh {
+		position:fixed;width:100%;height:100%;top:-2px;left:-2px;z-index:-999;
+
+}
+	/**居中**/
+	.jz{
+		text-align:center
+	}
+    .btn{
+    color: #000000;
+	border-color: #A3F7BF;
+	background: -webkit-linear-gradient(left, #A3F7BF, #A3F7BF) no-repeat;
+	background: linear-gradient(to right, #A3F7BF, #A3F7BF) no-repeat;
+	background-size: 100% 0%;
+} 
+	/**圆形框**/
+	.bk{
+	text-align: center;
+	border: 1px solid #da795c;
+	padding: 10px 50px;
+	background: none;
+	border-radius: 25px;
+
+}
+	/**一言样式**/
+	.yj{
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.55);
+	text-align: center;
+	color: #151414;
+	font-size: 20px;
+	}
+	.dy{-webkit-box-reflect: below -29px linear-gradient(transparent , white);
+}	
+	/**又加样式**/
+	.td{
+	color: #FFFFFF;
+    font-size: 30px;
+    filter:glow(color=skyblue,direction=2);
+    font-family: 华文行楷；
+
+}	/**头像**/
+    .cs{
+	text-align:center;
+    font-family:微软雅黑;
+	color:rgba(0, 150, 136, 0.69);
+}
+    .cs h3{
+    color:rgba(255, 250, 250, 0.40);
+}
+    img#logo {
+    width: 128px;
+    background-size: cover;
+    border-radius: 200px;
+    box-shadow: 0px 0px 40px rgba(63, 81, 181, 0.72);
+    border: 3px solid #00a0ff;
+    opacity: 1;
+    margin: 0 auto;
+    margin-top: 20px;
+	margin-bottom: 20px;
+	transition: all 1.0s;  
+}
+    #logo:hover {
+    box-shadow: 0 0 10px #fff;
+    -webkit-box-shadow: 0 0 19px #fff;
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg); 	/* IE 9 */
+    -moz-transform:rotate(360deg); 	/* Firefox */
+    -webkit-transform:rotate(360deg); /* Safari 和 Chrome */
+    -o-transform:rotate(360deg); 	/* Opera */
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+     /**绝对定位**/
+    .box {
+  position: absolute;
+  left:0;right:0;margin:0 auto;
+  top: 15%;
+  width:100%;
+}
+
+    .mainleft{
+	text-align:center;
+	width:825px;
+	/*line-height:1000%;*/
+	background:rgba(255, 250, 250, 0.37);
+	border-radius:20px;
+	box-shadow:0 1px 3px rgba(34,25,25,.5);
+    position: absolute;
+    left:0;right:0;margin:0 auto;
+    top: 50%;
+}
+
