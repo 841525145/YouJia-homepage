@@ -10,4 +10,4 @@
   <ol>由于本人才疏学浅，所运用的源代码或图片等资源 均搜集于互联网。所能注明的原作者也会注明。所用的资源如有侵犯著作权，请来邮通知：841525145@qq.com 
   谢谢支持.</ol>
 
-  预览地址:[http://twoshuo.cn/music/](http://twoshuo.cn/music/)
+  预览地址:[http://twoshuo.cn/github/lovems/](http://twoshuo.cn/github/lovems/)
